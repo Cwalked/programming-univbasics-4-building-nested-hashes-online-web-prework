@@ -1,4 +1,5 @@
 def monopoly
+<<<<<<< HEAD
   monopoly ={}
   monopoly = {
 	  :railroads => {}
@@ -61,3 +62,50 @@ def monopoly_with_fourth_tier
 	  }
 	}
 end
+=======
+	monopoly = {}
+		monopoly ={
+			:railroads=> [{}]
+
+}
+	}
+
+end
+
+def monopoly_with_second_tier
+	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
+	monopoly ={
+		:railroads => :pieces=>4,
+	}
+
+end
+
+def monopoly_with_third_tier
+	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
+monopoly ={
+	:rent_in_dollars =>
+    },
+
+end
+
+def monopoly_with_fourth_tier
+	#copy and past the monopoly hash you build in the previous method. We're going to add stuff to it here!
+	{
+      :reading_railroad=>
+      {
+        "mortgage_value"=>100
+      },
+      :pennsylvania_railroad=>
+      {
+        "mortgage_value"=>200
+      },
+      :b_and_o_railroad=>
+      {
+        "mortgage_value"=>400
+      },
+      :shortline=>
+      {
+        "mortgage_value"=>800
+
+end
+>>>>>>> 7989aeecef03a12a5bdc8f4cc0370e4bb35fc6c9
